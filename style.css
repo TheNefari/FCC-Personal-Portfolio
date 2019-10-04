@@ -33,6 +33,9 @@ h2{
   font-size:2em;
   text-align:center;
 }
+h3{
+  font-size:1.2em;
+}
 #navbar{
   background-color:hsl(100 100% 35%);
   border-bottom:2px solid hsla(100, 0%, 10%, 0.5);
@@ -148,6 +151,7 @@ section{
 .profile-links{
   flex-basis:15%;
   text-align:center;
+  text-shadow:2px 2px 2px black;
 }
 .profile-links:hover h3{
   transform:translateY(-1vh);
